@@ -1,5 +1,5 @@
-import yaml from 'js-yaml';
-import fs from 'fs';
+const yaml = require('js-yaml');
+const fs = require('fs');
 
 window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">

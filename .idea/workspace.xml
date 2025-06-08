@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf1935e-d574-4a3f-a261-99d0e957138b" name="Changes" comment="" />
+    <list default="true" id="faf1935e-d574-4a3f-a261-99d0e957138b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/oauth2-redirect.html" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-redirect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-initializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-initializer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-ui-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-ui-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-ui-es-bundle-core.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-ui-es-bundle-core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-ui-es-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-ui-es-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-ui-standalone-preset.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerUI/swagger-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-ui.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/SwaggerUI" />
     </key>
   </component>
@@ -59,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749378359273</updated>
-      <workItem from="1749378360294" duration="905000" />
+      <workItem from="1749378360294" duration="1466000" />
     </task>
     <servers />
   </component>
