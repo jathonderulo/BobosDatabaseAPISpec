@@ -25,7 +25,7 @@ const specJson = {
   "openapi": "3.0.4",
   "info": {
     "title": "Bobo's Database - OpenAPI 3.0",
-    "description": "This is an API doc for Bobo's database on the OpenAPI 3.0 specification.\n\nSome useful links:\n- [GitHub coming soon. Should we make it open source or nah](https://github.com)",
+    "description": "This is an API doc for Bobo's database on the OpenAPI 3.0 specification.\n\nSome useful links:\n- [There's a github but it's private muahahaha](https://github.com)",
     "contact": {
       "email": "apiteam@swagger.io"
     },
