@@ -1,33 +1,8 @@
-import specJson from './spec.json';
-
-window.onload = function() {
-  //<editor-fold desc="Changeable Configuration Block">
-
-  // the following lines will be replaced by docker/configurator, when it runs in a docker-container
-
-
-  window.ui = SwaggerUIBundle({
-    spec: specJson,
-    dom_id: '#swagger-ui',
-    deepLinking: true,
-    presets: [
-      SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
-    ],
-    plugins: [
-      SwaggerUIBundle.plugins.DownloadUrl
-    ],
-    layout: "StandaloneLayout"
-  });
-
-  //</editor-fold>
-};
-
-const specJson = {
+{
   "openapi": "3.0.4",
   "info": {
     "title": "Bobo's Database - OpenAPI 3.0",
-    "description": "This is an API doc for Bobo's database on the OpenAPI 3.0 specification.\n\nSome useful links:\n- [There's a github but it's private muahahaha](https://github.com)",
+    "description": "This is an API doc for Bobo's database on the OpenAPI 3.0 specification.\n\nSome useful links:\n- [GitHub coming soon. Should we make it open source or nah](https://github.com)",
     "contact": {
       "email": "apiteam@swagger.io"
     },
@@ -770,6 +745,14 @@ const specJson = {
           },
           "address": {
             "type": "string"
+          },
+          "total_issued": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
@@ -797,6 +780,7 @@ const specJson = {
         "required": [
           "title",
           "total_money",
+          "paid",
           "client_id"
         ],
         "properties": {
@@ -814,6 +798,10 @@ const specJson = {
           "total_money": {
             "type": "integer",
             "format": "int64"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
@@ -826,6 +814,10 @@ const specJson = {
           },
           "total_money": {
             "type": "integer"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
@@ -864,6 +856,14 @@ const specJson = {
           },
           "address": {
             "type": "string"
+          },
+          "total_to_pay": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
