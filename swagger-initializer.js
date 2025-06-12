@@ -1,5 +1,3 @@
-import specJson from './spec.json';
-
 window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">
 
@@ -19,15 +17,15 @@ window.onload = function() {
     ],
     layout: "StandaloneLayout"
   });
-
   //</editor-fold>
 };
 
-const specJson = {
+const specJson = 
+{
   "openapi": "3.0.4",
   "info": {
     "title": "Bobo's Database - OpenAPI 3.0",
-    "description": "This is an API doc for Bobo's database on the OpenAPI 3.0 specification.\n\nSome useful links:\n- [There's a github but it's private muahahaha](https://github.com)",
+    "description": "This is an API doc for Bobo's database on the OpenAPI 3.0 specification.\n\nSome useful links:\n- [GitHub coming soon. Should we make it open source or nah](https://github.com)",
     "contact": {
       "email": "apiteam@swagger.io"
     },
@@ -770,6 +768,14 @@ const specJson = {
           },
           "address": {
             "type": "string"
+          },
+          "total_issued": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
@@ -797,6 +803,7 @@ const specJson = {
         "required": [
           "title",
           "total_money",
+          "paid",
           "client_id"
         ],
         "properties": {
@@ -814,6 +821,10 @@ const specJson = {
           "total_money": {
             "type": "integer",
             "format": "int64"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
@@ -826,6 +837,10 @@ const specJson = {
           },
           "total_money": {
             "type": "integer"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
@@ -864,6 +879,14 @@ const specJson = {
           },
           "address": {
             "type": "string"
+          },
+          "total_to_pay": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "paid": {
+            "type": "integer",
+            "format": "int64"
           }
         }
       },
