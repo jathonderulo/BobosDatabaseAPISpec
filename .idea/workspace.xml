@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faf1935e-d574-4a3f-a261-99d0e957138b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger-initializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-initializer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749378359273</updated>
       <workItem from="1749378360294" duration="1849000" />
-      <workItem from="1749755855100" duration="389000" />
+      <workItem from="1749755855100" duration="1796000" />
     </task>
     <servers />
   </component>

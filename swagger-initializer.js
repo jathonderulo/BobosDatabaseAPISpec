@@ -812,7 +812,7 @@ const specJson =
             "format": "int64",
             "readOnly": true
           },
-          "title": {
+          "name": {
             "type": "string"
           },
           "description": {
@@ -832,7 +832,7 @@ const specJson =
         "type": "object",
         "description": "Fields to update. All fields are optional.",
         "properties": {
-          "title": {
+          "name": {
             "type": "string"
           },
           "total_money": {
