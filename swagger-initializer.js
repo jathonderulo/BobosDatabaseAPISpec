@@ -795,6 +795,12 @@ const specJson =
           },
           "address": {
             "type": "string"
+          },
+          "total_issued": {
+            "format": "int64"
+          },
+          "paid": {
+            "format": "int64"
           }
         }
       },
