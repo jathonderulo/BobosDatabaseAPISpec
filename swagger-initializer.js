@@ -773,7 +773,7 @@ const specJson =
             "type": "integer",
             "format": "int64"
           },
-          "paid": {
+          "total_paid": {
             "type": "integer",
             "format": "int64"
           }
@@ -799,7 +799,7 @@ const specJson =
           "total_issued": {
             "format": "int64"
           },
-          "paid": {
+          "total_paid": {
             "format": "int64"
           }
         }
@@ -809,7 +809,7 @@ const specJson =
         "required": [
           "title",
           "total_money",
-          "paid",
+          "total_paid",
           "client_id"
         ],
         "properties": {
@@ -828,7 +828,7 @@ const specJson =
             "type": "integer",
             "format": "int64"
           },
-          "paid": {
+          "total_paid": {
             "type": "integer",
             "format": "int64"
           }
@@ -844,7 +844,7 @@ const specJson =
           "total_money": {
             "type": "integer"
           },
-          "paid": {
+          "total_paid": {
             "type": "integer",
             "format": "int64"
           }
@@ -890,7 +890,7 @@ const specJson =
             "type": "integer",
             "format": "int64"
           },
-          "paid": {
+          "total_paid": {
             "type": "integer",
             "format": "int64"
           }
