@@ -474,7 +474,7 @@ components:
       required:
         - name
       oneOf:
-        - required: [ phone ]
+        - required: [ phoneNumber ]
         - required: [ email ]
       properties:
         id:
@@ -486,7 +486,7 @@ components:
         email:
           type: string
           format: email
-        phone:
+        phoneNumber:
           type: string
         address:
           type: string
@@ -499,7 +499,7 @@ components:
         email:
           type: string
           format: email
-        phone:
+        phoneNumber:
           type: string
         address:
           type: string
@@ -536,7 +536,7 @@ components:
       required:
         - name
       oneOf:
-        - required: [ phone ]
+        - required: [ phoneNumber ]
         - required: [ email ]
       properties:
         id:
@@ -548,7 +548,7 @@ components:
         email:
           type: string
           format: email
-        phone:
+        phoneNumber:
           type: string
         address:
           type: string
@@ -561,7 +561,7 @@ components:
         email:
           type: string
           format: email
-        phone:
+        phoneNumber:
           type: string
         address:
           type: string

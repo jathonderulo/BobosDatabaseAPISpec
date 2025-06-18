@@ -738,18 +738,6 @@ const specJson =
         "required": [
           "name"
         ],
-        "oneOf": [
-          {
-            "required": [
-              "phone"
-            ]
-          },
-          {
-            "required": [
-              "email"
-            ]
-          }
-        ],
         "properties": {
           "id": {
             "type": "integer",
@@ -763,7 +751,7 @@ const specJson =
             "type": "string",
             "format": "email"
           },
-          "phone": {
+          "phoneNumber": {
             "type": "string"
           },
           "address": {
@@ -790,7 +778,7 @@ const specJson =
             "type": "string",
             "format": "email"
           },
-          "phone": {
+          "phoneNumber": {
             "type": "string"
           },
           "address": {
@@ -855,18 +843,6 @@ const specJson =
         "required": [
           "name"
         ],
-        "oneOf": [
-          {
-            "required": [
-              "phone"
-            ]
-          },
-          {
-            "required": [
-              "email"
-            ]
-          }
-        ],
         "properties": {
           "id": {
             "type": "integer",
@@ -880,7 +856,7 @@ const specJson =
             "type": "string",
             "format": "email"
           },
-          "phone": {
+          "phoneNumber": {
             "type": "string"
           },
           "address": {
@@ -907,7 +883,7 @@ const specJson =
             "type": "string",
             "format": "email"
           },
-          "phone": {
+          "phoneNumber": {
             "type": "string"
           },
           "address": {
